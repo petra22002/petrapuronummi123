@@ -5,6 +5,40 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 color:darkblue;
 }
 
+.main{
+display: flex;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    }
+
+sidebar{
+   margin: 10px;
+   min-width: 200px;
+   background-color: aliceblue;
+}
+
+article{
+    flex: 1;
+}
+
+article:nth-of-type(2){
+flex:3;
+}
+
+.flexContainer{
+display: flex;
+background-color: gray;
+}
+
+.flexGrowContainer{
+display: flex;
+align-items: stretch;
+background-color: brown;
+}
+
 h1{
 border-bottom-style: solid;    
 color: red;
