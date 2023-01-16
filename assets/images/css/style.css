@@ -21,7 +21,8 @@ color:blue;
 }
 
 img{
-border-style: 1px;
+border-style: solid;
+border-width: 1px;
 border-color: red;
 padding: 10px;
 width: 250px;
