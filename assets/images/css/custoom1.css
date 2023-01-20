@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(224, 185, 136);
+}
+
+header{
+    background-color: rgb(166, 107, 107);
+    color: white;
+}
+
+footer{
+    background-color: rgb(166, 107, 107);
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+.red{
+    background-color: rgb(166, 107, 107);
+}
+.col-6{
+    background-color: rgb(198, 171, 237);
+}
+.col-4{
+background-color: rgb(184, 234, 217);
+}
+.col-2{
+background-color: bisque;
+}
